@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://greenbaydeckbuilders.com/sitemap.xml
+Sitemap: https://greenbaydeckbuilding.com/sitemap.xml
