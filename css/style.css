@@ -433,3 +433,5 @@ h1, h2, h3, h4 { overflow-wrap: break-word; }
 
 /* ---- theme override (from config) ---- */
 :root{--green-900:#0f2a1a;--green-800:#16402a;--green-700:#1e5636;--green-600:#2a6e46;--green-500:#3d8f5e;--green-300:#a9d4ba;--green-100:#e9f4ee;--orange-600:#8a6410;--orange-500:#c28f1c;--orange-400:#e6b93f;--font-display:"Bitter","Arial Narrow",sans-serif;--font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;}
+/* callbar icon must never stretch (it has no intrinsic px size) */
+.callbar__phone svg { width: 18px; height: 18px; flex: none; }
